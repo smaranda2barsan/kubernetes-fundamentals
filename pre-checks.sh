@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of container names or IDs to check
-containers=("cloud-provider-kind" "my-cluster-control-plane-01" "my-cluster-worker-01" "my-cluster-worker-02")
+containers=("cloud-provider-kind" "my-cluster-control-plane" "my-cluster-worker" "my-cluster-worker2")
 
 # Function to display colored output
 print_status() {
