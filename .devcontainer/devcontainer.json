@@ -30,6 +30,6 @@
     8080,
     80,
     443
-  ]
-  // "postCreateCommand": "/setup_kind_cluster.sh"
+  ],
+  "postCreateCommand": "/setup_kind_cluster.sh"
 }
