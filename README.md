@@ -1,13 +1,11 @@
 # Kubernetes Fundamentals
 
-## Setup training environment
+## Setup the training environment
 
-This repository is designed to work with GitHub Codespaces (hence devcontaners).
+1. Open [Github Codespaces](https://github.com/codespaces) and create your new `cloudnativetrainings/kubernetes-fundamentals` codespace.
+2. Verify your environment via `make verify`.
+3. Start with the [01_hello-k8s](./01_hello-k8s/README.mdd) lab.
 
-Please run the `pre-checks.sh` script to make sure that all required components are running:
+## Teardown the training environment
 
-```bash
-./pre-checks.sh
-```
-
-Start the codespaces on the repo, wait until the setup is ready, and start with the [01_hello-k8s](./01_hello-k8s/README.md) lab.
+1. Delete your `cloudnativetrainings/kubernetes-fundamentals` codespace via [Github Codespaces](https://github.com/codespaces).
