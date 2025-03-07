@@ -2,7 +2,7 @@
 
 In this training course, we will firewall pod to pod Communication. Note that your cluster has to support Network Policies.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/27_networkpolicies
@@ -35,7 +35,7 @@ Curl bob from the susan
 kubectl exec -it susan -- curl bob
 ```
 
->Now Bob is not reachable from Susan.
+> Now Bob is not reachable from Susan.
 
 ## Create a specific rule to allow Susan access to Bob again
 
@@ -49,7 +49,7 @@ Curl bob from the susan
 kubectl exec -it susan -- curl bob
 ```
 
->Now Bob is reachable again from Susan.
+> Now Bob is reachable again from Susan.
 
 ## Cleanup
 

@@ -12,7 +12,7 @@
           ".github/": true,
           ".devcontainer/": true,
           ".99_todos/": true,
-          "pre_checks.sh": true
+          "pre-checks.sh": true
         }
       }
     }

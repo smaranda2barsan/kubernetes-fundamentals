@@ -2,7 +2,7 @@
 
 In the training, we will learn about Daemonsets.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/16_daemonsets
@@ -21,7 +21,7 @@ kubectl create -f daemonset.yaml
 kubectl get po,no
 ```
 
->The number of pods for the daemonset has to match the number of nodes.
+> The number of pods for the daemonset has to match the number of nodes.
 
 ## Choose one Pod and take a look at its logging
 

@@ -2,7 +2,7 @@
 
 In the training, we will learn about Dynamic Persistence.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/12_persistence-dynamic
@@ -17,7 +17,7 @@ kubectl create -f storageclass-v1.yaml
 
 ## Show the available storage classes
 
->Possibly there are standard ones.
+> Possibly there are standard ones.
 
 ```bash
 kubectl get sc -o wide

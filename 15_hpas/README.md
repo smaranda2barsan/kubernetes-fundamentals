@@ -2,7 +2,7 @@
 
 In the training, we will learn about Horizontal Pod Autoscaler.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/15_hpas
@@ -40,7 +40,7 @@ watch -n 1 kubectl top pods
 kubectl create -f load-deployment.yaml
 ```
 
->Take a look at the second terminal. Has the number of pods for my-deployment increased?
+> Take a look at the second terminal. Has the number of pods for my-deployment increased?
 
 ## Put more pressure on my-deployment
 
@@ -48,7 +48,7 @@ kubectl create -f load-deployment.yaml
 kubectl scale deployment load-deployment --replicas 5
 ```
 
->After a few seconds additional pods for my-deployment will appear.
+> After a few seconds additional pods for my-deployment will appear.
 
 ## Cleanup
 

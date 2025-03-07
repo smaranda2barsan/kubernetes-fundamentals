@@ -2,7 +2,7 @@
 
 In this training, we will learn about Replicasets.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/05_replicasets
@@ -15,7 +15,7 @@ cat replicaset.yaml
 kubectl create -f replicaset.yaml
 ```
 
->Find and fix the two issues in there. Note, that you haven't finished this section until the pod of the ReplicaSet is in Running state.
+> Find and fix the two issues in there. Note, that you haven't finished this section until the pod of the ReplicaSet is in Running state.
 
 ## Take a look at the number of Pods
 

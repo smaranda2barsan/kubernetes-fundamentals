@@ -2,7 +2,7 @@
 
 In this training course, we will use taints and tolerations to influence scheduling.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/21_scheduling-taints-and-tolerations

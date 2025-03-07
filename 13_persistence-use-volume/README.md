@@ -2,7 +2,7 @@
 
 In the training, we will learn how to use persistentvolumeclaim in a pod.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/13_persistence-use-volume
@@ -20,7 +20,7 @@ kubectl create -f pvc.yaml
 kubectl create -f pod.yaml
 ```
 
->There is an issue with this structure. Try to fix the error and verify via `kubectl get po`. You are finished if your pod is in state `Running`
+> There is an issue with this structure. Try to fix the error and verify via `kubectl get po`. You are finished if your pod is in state `Running`
 
 ## Verify the timestamps in the file `/app/buffer`
 

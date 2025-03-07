@@ -2,7 +2,7 @@
 
 In this training course, we will learn about Node Selector.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/19_scheduling-node-selector

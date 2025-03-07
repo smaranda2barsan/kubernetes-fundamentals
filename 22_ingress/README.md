@@ -2,7 +2,7 @@
 
 In this training, we will setup an Ingress and expose an app showing a blue screen and an app showing a red screen.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/22_ingress
@@ -59,8 +59,8 @@ kubectl get svc ingress-nginx-controller -n ingress-nginx -o jsonpath='{.status.
 
 Get the external IP of your LoadBalancer and vist via `curl`:
 
-* `curl http://<EXTERNAL-IP>/red`
-* `curl http://<EXTERNAL-IP>/blue`
+- `curl http://<EXTERNAL-IP>/red`
+- `curl http://<EXTERNAL-IP>/blue`
 
 If you want to reach it via browser, you first need to port-forward ingress-nginx-controller service:
 

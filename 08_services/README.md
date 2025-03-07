@@ -2,7 +2,7 @@
 
 In the training, we will learn about Services.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/08_services
@@ -10,21 +10,21 @@ cd /workspaces/kubernetes-fundamentals/08_services
 
 ## Create and expose the application
 
-* Inspect deployment.yaml definition file and create the pod
+- Inspect deployment.yaml definition file and create the pod
 
   ```bash
   cat deployment.yaml
   kubectl apply -f deployment.yaml
   ```
 
-* Inspect service-v1.yaml definition file and create the service
+- Inspect service-v1.yaml definition file and create the service
 
   ```bash
   cat service-v1.yaml
   kubectl apply -f service-v1.yaml
   ```
 
-* Take a look at the created endpoints and IPs of the pods
+- Take a look at the created endpoints and IPs of the pods
 
   ```bash
   kubectl get po,ep -o wide
@@ -32,13 +32,13 @@ cd /workspaces/kubernetes-fundamentals/08_services
 
 ## Scale up the deployment
 
-* Scale the deployment
+- Scale the deployment
 
   ```bash
   kubectl scale deployment my-deployment --replicas 3
   ```
 
-* Take a look at the created Endpoints and IPs of the pods
+- Take a look at the created Endpoints and IPs of the pods
 
   ```bash
   kubectl get po,ep -o wide
@@ -46,37 +46,37 @@ cd /workspaces/kubernetes-fundamentals/08_services
 
 ## Access a ClusterIP Service
 
-* Port forward the service port 80 to the local port 8080
+- Port forward the service port 80 to the local port 8080
 
   ```bash
   kubectl port-forward service/my-service 8080:80
   ```
 
-* You can now access the service (in a seperate terminal)
+- You can now access the service (in a seperate terminal)
 
   ```bash
   curl http://127.0.0.1:8080
   ```
 
-* You may also reach it via codespaces URL on your browser:
+- You may also reach it via codespaces URL on your browser:
 
   ```bash
   echo "https://${CODESPACE_NAME}-8080.app.github.dev/"
   ```
 
-* You can stop the port-forwarding process via `CTRL + C`
+- You can stop the port-forwarding process via `CTRL + C`
 
 ## Access a NodePort Service
 
-* Inspect service-v2.yaml definition file and apply the changes to the service
+- Inspect service-v2.yaml definition file and apply the changes to the service
 
   ```bash
   cat service-v2.yaml
   kubectl apply -f service-v2.yaml
   ```
 
-* Access the service
-  
+- Access the service
+
   Get an EXTERNAL-IP of one of the nodes
 
   ```bash
@@ -91,15 +91,15 @@ cd /workspaces/kubernetes-fundamentals/08_services
 
 ## Access a LoadBalancer Service
 
-* Inspect service-v3.yaml definition file and apply the changes to the service
+- Inspect service-v3.yaml definition file and apply the changes to the service
 
   ```bash
   cat service-v3.yaml
   kubectl apply -f service-v3.yaml
   ```
 
-* Access the service
-  
+- Access the service
+
   Get an EXTERNAL-IP of the service
 
   ```bash
@@ -114,7 +114,7 @@ cd /workspaces/kubernetes-fundamentals/08_services
 
 ## Cleanup
 
-* Delete the resources - deployment and service.
+- Delete the resources - deployment and service.
 
   ```bash
   kubectl delete deploy my-deployment

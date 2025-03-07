@@ -2,13 +2,13 @@
 
 In the training, we will learn about Secrets.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/10_secrets
 ```
 
->Note that, there are errors in the yaml files. Try to fix them.
+> Note that, there are errors in the yaml files. Try to fix them.
 
 ## Inspect secret.yaml definition file and create the secret
 

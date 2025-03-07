@@ -2,7 +2,7 @@
 
 In this training course, we will create a job which will run every minute.
 
->Navigate to the lab folder:
+> Navigate to the lab folder:
 
 ```bash
 cd /workspaces/kubernetes-fundamentals/18_cronjobs
@@ -17,7 +17,7 @@ kubectl create -f cronjob.yaml
 
 ## Take a look at running cronjobs and the pods
 
->It can take a while that the job is completed.
+> It can take a while that the job is completed.
 
 ```bash
 kubectl get cronjobs,pods
