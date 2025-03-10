@@ -20,7 +20,7 @@ kubectl create -f cronjob.yaml
 > It can take a while that the job is completed.
 
 ```bash
-kubectl get cronjobs,pods
+watch -n 1 kubectl get cronjobs,jobs,pods
 ```
 
 ## Cleanup

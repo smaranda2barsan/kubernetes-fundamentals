@@ -65,5 +65,6 @@ TOKEN=$(cat token)
 ## Cleanup
 
 ```bash
+exit # exit the container
 kubectl delete -f .
 ```

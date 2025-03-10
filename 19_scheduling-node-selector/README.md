@@ -17,7 +17,7 @@ kubectl get nodes --show-labels
 ## Add a Label to a node
 
 ```bash
-kubectl label node <NODE-NAME> preferred=true
+kubectl label node my-cluster-worker preferred=true
 ```
 
 ## Inspect deployment.yaml definition file and create the deployment
@@ -36,6 +36,6 @@ kubectl get pods -o wide
 ## Cleanup
 
 ```bash
-kubectl label node <NODE-NAME> preferred-
+kubectl label node my-cluster-worker preferred-
 kubectl delete deployment my-deployment
 ```

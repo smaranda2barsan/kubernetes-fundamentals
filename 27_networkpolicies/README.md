@@ -26,7 +26,7 @@ kubectl exec -it susan -- curl bob
 ## Deny all ingress traffic
 
 ```bash
-kubectl create -f networkpolicy-deny-all.yaml
+kubectl create -f networkpolicy-deny-all-ingress.yaml
 ```
 
 Curl bob from the susan

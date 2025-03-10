@@ -78,5 +78,6 @@ echo "https://${CODESPACE_NAME}-80.app.github.dev/blue"
 ## Clean up
 
 ```bash
+helm uninstall -n ingress-nginx ingress-nginx
 kubectl delete -f .
 ```

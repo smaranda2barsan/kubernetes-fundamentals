@@ -11,7 +11,7 @@ cd /workspaces/kubernetes-fundamentals/21_scheduling-taints-and-tolerations
 ## Taint the node
 
 ```bash
-kubectl taint nodes <NODE-NAME> foo=bar:NoSchedule
+kubectl taint nodes my-cluster-worker foo=bar:NoSchedule
 ```
 
 ## Verify the taint on the node
@@ -51,5 +51,5 @@ kubectl get pods -o=custom-columns='POD_NAME:metadata.name,NODE_NAME:spec.nodeNa
 ```bash
 kubectl delete pod my-pod
 kubectl delete deployment my-deployment
-kubectl taint nodes <NODE-NAME> foo=bar:NoSchedule-
+kubectl taint nodes my-cluster-worker foo=bar:NoSchedule-
 ```

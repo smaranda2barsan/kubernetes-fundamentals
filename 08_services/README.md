@@ -77,7 +77,7 @@ cd /workspaces/kubernetes-fundamentals/08_services
 
 - Access the service
 
-  Get an EXTERNAL-IP of one of the nodes
+  Get an INTERNAL-IP of one of the nodes
 
   ```bash
   kubectl get nodes -o wide
@@ -86,7 +86,7 @@ cd /workspaces/kubernetes-fundamentals/08_services
   You can now access the service:
 
   ```bash
-  curl http://<EXTERNAL-IP>:30000
+  curl http://<INTERNAL-IP>:30000
   ```
 
 ## Access a LoadBalancer Service

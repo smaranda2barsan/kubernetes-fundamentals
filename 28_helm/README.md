@@ -8,20 +8,6 @@ In this training, we will use Helm to create and customize an application.
 cd /workspaces/kubernetes-fundamentals/28_helm
 ```
 
-## Verify if helm is installed
-
-- Check helm
-
-  ```bash
-  helm version
-  ```
-
-- Ensure autocompletion is installed
-
-  ```bash
-  echo 'source <(helm completion bash)' >> ~/.bashrc && bash
-  ```
-
 ## Do a release
 
 - Show all releases
@@ -161,7 +147,6 @@ cd /workspaces/kubernetes-fundamentals/28_helm
 - Add templating for the deployment in the file ./my-chart/templates/deployment.yaml
 
   ```yaml
-
   ---
   spec:
   replicas: { { .Values.replicas } }
