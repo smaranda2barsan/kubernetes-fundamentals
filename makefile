@@ -3,6 +3,8 @@ verify:
 	docker --version
 	kind --version
 	kubectl version --client
+	kubectx
+	kubens
 	helm version
 	echo "Training Environment successfully verified"
 

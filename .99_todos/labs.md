@@ -7,3 +7,5 @@
 # new lab (copy the one from 7sins talk) for schedulung - resource requests and limits
 
 # simple authorization lab in here
+
+# make use of training application instead of nginx all the time
