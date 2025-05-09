@@ -32,7 +32,7 @@ cd /workspaces/kubernetes-fundamentals/06_deployments
 - Change the image of the deployment and take a look at the second terminal
 
   ```bash
-  kubectl set image deployment my-deployment nginx=nginx:1.19.1
+  kubectl set image deployment my-deployment nginx=nginx:1.19.3
   ```
 
 ## RollingUpdate rollout strategy
@@ -48,7 +48,7 @@ cd /workspaces/kubernetes-fundamentals/06_deployments
 - Change the image of the deployment and take a look at the second terminal
 
   ```bash
-  kubectl set image deployment my-deployment nginx=nginx:1.19.1
+  kubectl set image deployment my-deployment nginx=nginx:1.19.3
   ```
 
 - Take a look at the deployment and replicasets

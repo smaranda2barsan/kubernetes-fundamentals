@@ -32,3 +32,9 @@ https://www.youtube.com/watch?v=kGrpLKNi4ZI&t=29s
 https://docs.google.com/presentation/d/1QDDBdWZmdeZ-SrTSPlrqOItqWe5yjfrKu7iJ6OWlKn8/edit?pli=1#slide=id.g706b8ae5d0_0_95
 
 # overcommit CPU and Mem
+
+# Services Type ExternalName
+
+=> how can I configure the url of the external thing?
+
+# Resource Requests and Limits => outdated => Gb vs Gi

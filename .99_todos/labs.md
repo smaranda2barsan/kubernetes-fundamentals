@@ -9,3 +9,9 @@
 # simple authorization lab in here
 
 # make use of training application instead of nginx all the time
+
+# secrets&CM
+
+- multiple env vars without lots env vars
+- stringdata versus data
+- config file with defined name and more than one config
