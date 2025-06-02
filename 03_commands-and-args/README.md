@@ -34,8 +34,6 @@ kubectl describe pod my-pod | grep -A4 "Last State:"
 ## Add the following command and arguments to the container
 
 ```yaml
-
----
 - name: busybox
   image: busybox:1.32.0
   command: ["sleep"]

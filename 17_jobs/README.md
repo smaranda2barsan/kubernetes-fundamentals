@@ -26,8 +26,6 @@ kubectl get pods,jobs
 ## Increase the amount of executions to 10 and parallelize them
 
 ```yaml
-
----
 spec:
   completions: 10
   parallelism: 5
