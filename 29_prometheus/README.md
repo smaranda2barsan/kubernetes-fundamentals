@@ -39,7 +39,7 @@ kubectl create -f pod.yaml
 - Reach via below URL:
 
   ```bash
-  echo "https://${CODESPACE_NAME}-80.app.github.dev
+  echo "https://${CODESPACE_NAME}-80.app.github.dev/"
   ```
 
 - Execute some query over the "graph" page in your browser
@@ -68,7 +68,7 @@ kubectl create -f pod.yaml
 - Reach via below URL:
 
   ```bash
-  echo "https://${CODESPACE_NAME}-80.app.github.dev"
+  echo "https://${CODESPACE_NAME}-80.app.github.dev/"
   ```
 
 - Add Prometheus as data source to Grafana

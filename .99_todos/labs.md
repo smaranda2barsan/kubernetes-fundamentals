@@ -15,3 +15,8 @@
 - multiple env vars without lots env vars
 - stringdata versus data
 - config file with defined name and more than one config
+
+# port forward on port 80 does not work in codespaces
+
+port 80 is taken by codespaces itself
+do this on all trainings
